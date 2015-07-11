@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>表单</title>
+        <meta charset="utf-8" />
+    </head>
+    <body>
+        <p>
+        <form>
+            用户名：
+            <input type="text" name="username" />
+            <br />
+            密&nbsp;&nbsp;&nbsp;码：
+            <input type="password" name="passwd">
+        </form>
+        <br />
+        <hr />
+        <form>
+            <div class="normalInput">
+                <input type="text" value="" name="account" id="account" maxlength="50" placeholder="用户名">
+            </div>
+            <p />
+            <div class="normalInput">
+                <input type="text" value="" name="password" id="password" maxlenth="16" placeholder="密码">
+            </div>
+        </form>
+        <br />
+        <form>
+            <input type="radio" name="s" id="s" value="man" checked="checked">man</input>
+            <input type="radio" name="s" id="s" value="woman">woman</input>
+        </form>
+        <form name="input" action="html_form_action.asp" methon="get">
+            Username:
+            <input type="text" name="user" id="user" />
+            <input type="submit" name="submit" id="submit" value="提交">
+        </form>
+        <form>
+            <input type="checkbox" name="bike" />I have a bike
+            <br />
+            <input type="checkbox" name="car" />I have a car
+        </form>
+        <hr />
+        <form>
+            <select name="seleck" id="seleck">
+                <option value="hehe" />hehe
+                <option value="heihei" />heihei
+                <option value="haha" />haha
+                <option value="xixi" selected="selected"/>xixi
+            </select>
+        </form>
+        <br />
+        <textarea rows="10" cols="30">这是一个输入框。</textarea>
+        <br />
+        <form>
+            <input type="button" value="按钮" /> 
+        </form>
+        <br />
+        <form>
+            <fieldset>
+                <legend>这是个屁</legend>
+                P1:<input type="text" />
+                P2:<input type="text" />
+            </fieldset>
+        </form>
+        </p>
+    </body>
+</html>
